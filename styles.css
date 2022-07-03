@@ -12,3 +12,133 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+header {
+  background-color: lightgrey;
+}
+
+nav {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: black;
+}
+
+section {
+  width: 100%;
+  height: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: black;
+}
+
+.hero {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.75rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.hero-text h1,
+.hero-text p {
+  margin-bottom: 0.75rem;
+}
+
+.hero-text p {
+  width: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  font-size: 1.15rem;
+  box-shadow: 0px 3px 25px 0 #8a8a8a, 0 4px 15px 0px rgb(185, 185, 185),
+    0 5px 5px 0px #fff;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container {
+  width: 50%;
+  background-color: darkgrey;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.cta-container h1,
+.cta-container p {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  align-items: center;
+  background-color: lightgrey;
+  font-size: 1.05rem;
+}
